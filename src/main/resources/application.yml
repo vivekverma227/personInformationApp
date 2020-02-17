@@ -1,0 +1,15 @@
+---
+server:
+  contextPath: /EmblAssignment_Vivek
+---
+spring: 
+ h2:
+    console:
+      enabled: true
+  
+
+      
+ 
+       
+
+
