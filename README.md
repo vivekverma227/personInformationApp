@@ -12,7 +12,7 @@ Application having below Restful API:
 
 5. http://localhost:8080/EmblAssignment_Vivek/api/personInfo/4  DELETE Request with id as parameter ( To delete person with matching ID.)
 
-Curl Command to execute and Test implemented API:
+# Curl Command to execute and Test implemented API:
 1. curl -X GET "http://localhost:8080/EmblAssignment_Vivek/api/personInfo/" -H "accept: */*"
 
 2. curl -X POST "http://localhost:8080/EmblAssignment_Vivek/api/personInfo/" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"age\": 0, \"favourite_colour\": \"string\", \"first_name\": \"string\", \"hobbies\": [ \"string\" ], \"id\": 0, \"last_name\": \"string\"}"
@@ -23,7 +23,7 @@ Curl Command to execute and Test implemented API:
 5. curl -X DELETE "http://localhost:8080/EmblAssignment_Vivek/api/personInfo/4" -H "accept: */*"
 
 
-
+Application Screenshots is attached with the Codebase ""
 
 
 Please download this project and import into any of the IDE (Eclipse or Intellij), Run the main Class.
