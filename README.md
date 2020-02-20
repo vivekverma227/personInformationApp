@@ -23,19 +23,18 @@ Application having below Restful API:
 5. curl -X DELETE "http://localhost:8080/EmblAssignment_Vivek/api/personInfo/4" -H "accept: */*"
 
 
-Application Screenshots is attached with the Codebase ""
+Application Screenshots is attached with the Codebase # Person Information APP Screenshot.docx
 
-
-Please download this project and import into any of the IDE (Eclipse or Intellij), Run the main Class.
+Please download the project and import into any of the IDE (Eclipse or Intellij), Run the main Class.
 Once the Tomcat is up, Please hit Below URL to see the Front end.
 
-http://localhost:8080/EmblAssignment_Vivek/
+http://localhost:8080/EmblAssignment_Vivek/#/
 
 to see the API details Please hit below URL:
 
-http://localhost:8080/EmblAssignment_Vivek/swagger-ui.html
+http://localhost:8080/EmblAssignment_Vivek/#/swagger-ui.html
 
 This project is also contains Application health information. 
 
-http://localhost:8080/EmblAssignment_Vivek/actuator/health
+http://localhost:8080/EmblAssignment_Vivek/#/actuator/health
 
