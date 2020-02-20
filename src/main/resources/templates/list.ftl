@@ -46,7 +46,7 @@
 	                    <div class="form-group col-md-12">
 	                        <label class="col-md-2 control-lable" for="hobbies">Hobbies</label>
 	                        <div class="col-md-5">
-                                <input type="text" class="form-control" id="hobbies" ng-model="hobby" />
+                                <input type="text" class="form-control" id="hobbies" ng-model="hobby" placeholder="Enter your Hobbies."  />
 							</div>
                             <div class="form-group col-md-2">
                                 <button type="button" class="btn btn-primary" ng-click="addHobbies(hobby)">Add Hobbies</button>
