@@ -32,9 +32,7 @@ http://localhost:8080/EmblAssignment_Vivek/#/
 
 to see the API details Please hit below URL:
 
-http://localhost:8080/EmblAssignment_Vivek/#/swagger-ui.html
+http://localhost:8080/EmblAssignment_Vivek/swagger-ui.html#/
 
-This project is also contains Application health information. 
 
-http://localhost:8080/EmblAssignment_Vivek/#/actuator/health
 
