@@ -1,5 +1,5 @@
 # EMBLAssignment
-Is a End-to-End Implementation of Person Information.
+This is a End-to-End Implementation of Person Information.
 This Application is based on Spring Boot and Restful Webservice as BackEnd and AngularJs, Html CSS, and Bootstrap as Front End.
 Application having below Restful API:
 1. http://localhost:8080/EmblAssignment_Vivek/api/personInfo/   GET Request                                ( List of All Person)
@@ -12,7 +12,7 @@ Application having below Restful API:
 
 5. http://localhost:8080/EmblAssignment_Vivek/api/personInfo/4  DELETE Request with id as parameter ( To delete person with matching ID.)
 
-# Curl Command to execute and Test implemented API:
+# Curl Command to execute and Test the implemented API:
 1. curl -X GET "http://localhost:8080/EmblAssignment_Vivek/api/personInfo/" -H "accept: */*"
 
 2. curl -X POST "http://localhost:8080/EmblAssignment_Vivek/api/personInfo/" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"age\": 0, \"favourite_colour\": \"string\", \"first_name\": \"string\", \"hobbies\": [ \"string\" ], \"id\": 0, \"last_name\": \"string\"}"
